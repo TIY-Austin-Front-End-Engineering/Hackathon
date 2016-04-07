@@ -23,48 +23,70 @@ After completing this assignment, you be able to effectively use
 
 ## Details
 
+You'll be creating a "best of" app for something of your group's choosing (ie. "Best Tacos in Austin", "Best Hiking Spots in the US", "Best Horror Movies").  Explorer mode lists the minimum requirements, but you and your team can develop features that aren't on this list.
+
 ### Deliverables
 
 * Two repositories, one for your Frontend code and one for your Backend code:
 	* Your backend repo should have a README that links to all of the other deliverables
 * User stories in Trello
-* Sketches of your project
-* A live working web application on heroku / GitHub pages (online!)
+* A live working web application on heroku / surge (online!)
 
 ### Requirements
 
 * Everyone
-	1. ** Everyone must a contributor on the repo with at least 5 commits **
-	1. Use branching and pull requests to accomplish requirement i.
-	1. Multi device friendly (responsive)
+	1. ** Everyone must be a contributor on the repo with at least 5 commits **
+	1. Use branching and pull requests to accomplish requirement 1
+	1. Multi-device friendly (responsive)
 	1. A polished presentation
 	1. ** Your app must be submitted by 1am Monday morning ** so that you are ready to present by 9am Monday.
 * Design
 	1. Find 3 websites to inspire the design/layout/functionality of your app
-	1. Sketches for each page
-	1. Mockups for 3 pages at two breakpoints
-	1. 3 Style Tiles
-	1. Build HTML/Sass
+	1. Sketches for 3 pages (small and large screen size)
+	1. Wireframes for 3 pages (small and large screen size)
+	1. 3 Style Tiles (in Illustrator)
+	1. Mockups in Illustrator for home page with 1 breakpoint (small and large screen sizes), remaining pages will be rapidly prototyped
+	1. Build HTML/Sass (must be responsive, must have 2 breakpoints, must use a grid system)
+	1. Compatible on Chrome, Safari, and Firefox (download them if you haven’t already)
 	1. Ability to defend design decisions
 * Front-end
-	1. Backbone Router, Models and Collections
+	1. Backbone Views, Models and Collections
 	1. Use of AJAX (jQuery or Backbone)
 * Rails
 	1. Multiple models
 	1. UML diagrams
-	1. Documenting the API with examples and response data
+	1. [A Documented API with examples and response data](https://bocoup.com/weblog/documenting-your-api)
 	1. Consistent JSON response
 	1. Appropriate status codes
-	1. Database and model level validations / associations
-	1. Controllers must be free of duplication
+	1. Database **and** model level validations
+	1. Controllers must have minimal duplication
 
+### Explorer Mode
+Users should be able to:
+- View a sorted list of the "best" items on your site
+- Submit new suggestions for a "best" item
+- Vote for a "best" item (there is no requirement to limit votes per person)
 
-## Normal Mode
-To begin, one frontend member of your team should create a new repo using Jess's basic webpack setup. The frontender should [invite all of your team members as collaborators](https://help.github.com/articles/adding-collaborators-to-a-personal-repository/) so that they can push to the repo. Other frontend and design students should pull (don't fork) the newly created repository onto their computer and `cd` into the directory where the repo lives. Then run the `npm install` command (this could take a while to finish so I recommend that you do it as early as possible).
+To begin, one frontend member of your team should create a new repo using Jess's basic webpack setup. The frontender should [invite all of your team members as collaborators](https://help.github.com/articles/adding-collaborators-to-a-personal-repository/) so that they can push to the repo. Other frontend and design students should clone (don't fork) the newly created repository onto their computer and `cd` into the directory where the repo lives. Then run the `npm install` command (this could take a while to finish so I recommend that you do it as early as possible).
+
+The designers will need to:
+- npm install -g webpack
+- npm install -g webpack-dev-server
 
 The backend student(s) will create an entitely separate repository.
 
-Hackathon Format:
+###Adventure Mode
+- Users should be able to search or Filter "best" items
+- Pagination for "best" items
+- Users should be able to keep track of items they would like to try
+- Restrict so more than one person cannot submit the same item
+
+###Epic Mode 
+- Users can only vote for one "best" item once
+- Users can find like-minded users by displaying all users who have liked the same items they have
+
+
+Group Project Format:
 
 * Thursday - April 7th
 	* 1:30pm Project kick-off and requirements
@@ -80,7 +102,7 @@ Hackathon Format:
 
 ## Notes
 
-On Monday morning you will give a presentation of your app.
+On Monday morning you will give a presentation of your app. Each group member must talk for 30-60 seconds about their process.
 
 ## Teams
 
