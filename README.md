@@ -61,17 +61,20 @@ You'll be creating a "best of" app for something of your group's choosing (ie. "
 	1. Database **and** model level validations
 	1. Controllers must have minimal duplication
 
-### Explorer Mode
-Users should be able to:
-- View a sorted list of the "best" items on your site
-- Submit new suggestions for a "best" item
-- Vote for a "best" item (there is no requirement to limit votes per person)
-
 To begin, one frontend member of your team should create a new repo using Jess's basic webpack setup. The frontender should [invite all of your team members as collaborators](https://help.github.com/articles/adding-collaborators-to-a-personal-repository/) so that they can push to the repo. Other frontend and design students should clone (don't fork) the newly created repository onto their computer and `cd` into the directory where the repo lives. Then run the `npm install` command (this could take a while to finish so I recommend that you do it as early as possible).
 
 The designers will need to:
 - npm install -g webpack
 - npm install -g webpack-dev-server
+
+## Explorer Mode
+
+Users should be able to:
+- View a sorted list of the "best" items on your site
+- Submit new suggestions for a "best" item
+- Vote for a "best" item (there is no requirement to limit votes per person)
+
+To begin, one frontend member of your team should create a new repo using Jess's basic webpack setup. The frontender should [invite all of your team members as collaborators](https://help.github.com/articles/adding-collaborators-to-a-personal-repository/) so that they can push to the repo. Other frontend and design students should pull (don't fork) the newly created repository onto their computer and `cd` into the directory where the repo lives. Then run the `npm install` command (this could take a while to finish so I recommend that you do it as early as possible).
 
 The backend student(s) will create an entitely separate repository.
 
